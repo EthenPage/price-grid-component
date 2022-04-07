@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 1.6rem;
+  background-color: hsl(204deg, 43%, 93%);
+}
+
+.price-card {
+  max-width: 375px;
+  margin: 50px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.price-card__head {
+  background-color: white;
+  padding: 30px;
+}
+.price-card__head h1,
+.price-card__head h2 {
+  margin-bottom: 20px;
+}
+.price-card__head p {
+  margin-bottom: 10px;
+}
+.price-card__head h1 {
+  color: hsl(179deg, 62%, 43%);
+}
+.price-card__head h2 {
+  color: hsl(71deg, 73%, 54%);
+}
+.price-card__head p {
+  color: hsl(218deg, 22%, 67%);
+  line-height: 1.5;
+}
+
+.subscription {
+  background-color: hsl(179deg, 62%, 43%);
+  color: white;
+  padding: 30px;
+  width: 100%;
+}
+.subscription h1,
+.subscription h2 {
+  margin-bottom: 20px;
+}
+.subscription p {
+  margin-bottom: 10px;
+}
+.subscription .price {
+  font-size: 3.5rem;
+}
+.subscription .price span {
+  font-size: 1.6rem;
+  color: hsl(204deg, 43%, 93%);
+}
+.subscription a {
+  background-color: hsl(71deg, 73%, 54%);
+  color: inherit;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 0;
+  border-radius: 10px;
+  margin-top: 40px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: inherit;
+  transition: background-color 0.5s;
+}
+.subscription a:hover {
+  background-color: hsla(71deg, 73%, 54%, 0.712);
+}
+
+.about {
+  background-color: hsla(179deg, 62%, 43%, 0.795);
+  color: hsl(204deg, 43%, 93%);
+  padding: 30px;
+  width: 100%;
+}
+.about h1,
+.about h2 {
+  margin-bottom: 20px;
+}
+.about p {
+  margin-bottom: 10px;
+}
+.about h2 {
+  color: white;
+}
+.about p {
+  width: 75%;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+
+footer img {
+  display: block;
+  margin: 10px auto 20px;
+  width: 15%;
+  max-width: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media screen and (min-width: 768px) {
+  .price-card {
+    max-width: 750px;
+  }
+
+  .price-card__content {
+    display: flex;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+  }
+  footer img {
+    margin: 0 auto 10px;
+  }
+}
