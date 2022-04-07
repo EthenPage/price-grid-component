@@ -18,7 +18,7 @@ Solution of [Single price grid component challenge on Frontend Mentor](https://w
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/my-9th-project-price-card-HJ5INdnQ5)
 - Live Site URL: [Live](https://ethenpage.github.io/price-grid-component/)
 
 ## Built with
